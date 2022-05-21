@@ -1,0 +1,25 @@
+package os;
+import java.util.*;
+
+class life{
+	Scanner scan=new Scanner(System.in);
+	int lives;
+	String Name;
+	
+	public life()
+	{
+		lives=10;
+		System.out.print("Enter name of the player: ");
+		Name=scan.nextLine();
+		System.out.println();
+	}
+}
+public class HangMan {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		life Life=new life();
+
+	}
+
+}
